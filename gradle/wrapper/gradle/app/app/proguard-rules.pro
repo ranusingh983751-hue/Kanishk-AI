@@ -1,0 +1,6 @@
+-keep class com.getredeemcode.app.** { *; }
+-keep class com.google.android.gms.ads.** { *; }
+-keep class com.google.ads.** { *; }
+-keepnames class kotlinx.coroutines.internal.MainDispatcherFactory {}
+-keepnames class kotlinx.coroutines.CoroutineExceptionHandler {}
+-keep class androidx.compose.** { *; }
